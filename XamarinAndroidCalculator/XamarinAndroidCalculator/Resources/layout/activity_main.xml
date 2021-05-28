@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <EditText
+        android:layout_width="280px"
+        android:layout_height="110dp"
+        android:textSize="50sp"
+        android:inputType="text"
+        android:layout_marginLeft="60px"
+        android:id="@+id/editText1"/>
+
+    <EditText
+        android:layout_width="280px"
+        android:layout_height="110dp"
+        android:textSize="50sp"
+        android:layout_marginLeft="70px"
+        android:id="@+id/editText2"
+        android:inputType="text" />
+
+    <TextView
+        android:text="="
+        android:textSize="50sp"
+        android:layout_width="33.1dp"
+        android:layout_height="81.1dp"
+        android:id="@+id/textVieweguale"/>
+
+    <TextView
+        android:text="0"
+        android:textSize="50sp"
+        android:layout_width="88.0dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="40px"
+        android:id="@+id/textView1"/>
+
+
+    <GridLayout
+        android:minWidth = "25px"
+        android:minHeight = "25px"
+        android:layout_width = "386.5dp"
+        android:layout_height = "142.5dp"
+        android:orientation = "horizontal"
+        android:columnCount = "4"
+        android:rowCount = "6"
+        android:layout_marginLeft="-1020px"
+        android:layout_marginTop = "500px"
+        android:id = "@+id/gridLayout2">
+
+        <Button
+            android:text = "+"
+            android:id = "@+id/buttonplus"
+            android:layout_width = "250px"
+            android:layout_height = "wrap_content"
+            android:background="@android:color/holo_blue_dark"/>
+
+        <Button
+            android:text = "-"
+            android:id = "@+id/buttonmoins"
+            android:layout_width = "250px"
+            android:layout_height = "wrap_content"
+            android:layout_marginLeft="-710px"
+            android:background="@android:color/holo_blue_dark"/>
+
+
+        <Button
+            android:text = "x"
+            android:id = "@+id/buttonmultipli"
+            android:layout_width = "250px"
+            android:layout_height = "wrap_content"
+            android:layout_marginLeft="10px"
+            android:background="@android:color/holo_blue_dark"/>
+
+
+        <Button
+            android:text = "%"
+            android:id = "@+id/buttondivise"
+            android:layout_width = "250px"
+            android:layout_height = "wrap_content"
+            android:layout_marginLeft="10px"
+            android:background="@android:color/holo_blue_dark"/>
+
+        <Button
+            android:text = "Clear"
+            android:id = "@+id/buttonClear"
+            android:layout_width = "930px"
+            android:layout_height = "wrap_content"
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="40px"
+            android:background="@android:color/holo_blue_light"/>
+    </GridLayout >
+
+
+
+</LinearLayout>
